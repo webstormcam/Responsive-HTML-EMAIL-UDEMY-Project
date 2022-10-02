@@ -28,9 +28,77 @@
             border: 0;
         }
 
-        @media screen and (max-width: 599.98px) {}
+        @media screen and (max-width: 599.98px) {
+            .banner {
+                height: auto !important;
+                padding-top: 40px !important;
+                padding-bottom: 60px !important;
+            }
 
-        @media screen and (max-width: 399.98px) {}
+
+            .two-columns .padding {
+                padding-right: 0 !important;
+                padding-left: 0 !important;
+            }
+
+            img.two-col-img {
+                width: 300px !important;
+                max-width: 300px !important;
+            }
+
+            .two-thirds-columns .padding {
+                padding-right: 0 !important;
+                padding-left: 0 !important;
+
+            }
+
+            .two-thirds-columns .padding.first {
+                padding-bottom: 0 !important;
+
+
+            }
+
+            .two-thirds-columns .content {
+                text-align: center !important;
+            }
+
+            .two-thirds-columns .padding.last {
+                padding-top: 0 !important;
+
+
+            }
+
+            img.one-third-col-img {
+                width: 200px !important;
+                max-width: 200px !important;
+            }
+
+            img.three-col-img-last {
+                width: 200px !important;
+                max-width: 200px !important;
+            }
+
+            .three-columns .padding {
+                padding-right: 0 !important;
+                padding-left: 0 !important;
+            }
+
+
+        }
+
+        @media screen and (max-width: 399.98px) {
+
+            .banner {
+                padding-top: 10px !important;
+                padding-bottom: 40px !important;
+            }
+
+
+            img.three-col-img {
+                width: 200px !important;
+                max-width: 200px !important;
+            }
+        }
 
         /* Custom Dark Mode Colors */
 
@@ -160,7 +228,7 @@
                 <!-- START BANNER -->
 
                 <tr>
-                    <td background="https://i.ibb.co/hMhVbjT/stats2.gif" width="600" height="332"
+                    <td class="banner" background="https://i.ibb.co/hMhVbjT/stats2.gif" width="600" height="332"
                         style="background-position: center top;">
 
                         <!--[if(gte mso 9)|(IE)]>
@@ -274,6 +342,7 @@
                                                     <tr>
                                                         <td>
                                                             <a href="https://example.com" target="_blank"><img
+                                                                    class="two-col-img"
                                                                     src="https://i.ibb.co/Tmg3qbV/man-teal.jpg" alt=""
                                                                     width="260"
                                                                     style="max-width:260px; border-radius: 8px;"
@@ -332,6 +401,7 @@
                                                     <tr>
                                                         <td>
                                                             <a href="https://example.com" target="_blank"><img
+                                                                    class="two-col-img"
                                                                     src="https://i.ibb.co/nQn29Sg/woman-teal.jpg" alt=""
                                                                     width="260"
                                                                     style="max-width:260px; border-radius: 8px;"
@@ -424,6 +494,7 @@
                                                     <tr>
                                                         <td>
                                                             <a href="https://example.com" target="_blank"><img
+                                                                    class="one-third-col-img"
                                                                     src="https://i.ibb.co/j852yw3/teal-circle.png"
                                                                     alt="" width="160"
                                                                     style="max-width:160px; border-radius: 8px;"
